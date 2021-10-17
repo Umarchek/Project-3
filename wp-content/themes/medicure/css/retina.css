@@ -1,0 +1,67 @@
+/**
+ * @package WordPress
+ * @subpackage Medicure
+ * @since Medicure 1.0
+ * 
+ * High Resolution (Retina) Displays CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (-moz-min-device-pixel-ratio: 1.5), 
+	only screen and (-o-min-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+	body {
+		background-image:url(../img/retina/bg_body@2x.png);
+		background-size:6px 6px;
+	}
+	
+	.box.error_box tr td:first-child {
+		background-image:url(../img/retina/error@2x.png);
+		background-size:32px 32px;
+	}
+
+	.box.success_box tr td:first-child {
+		background-image:url(../img/retina/success@2x.png);
+		background-size:32px 32px;
+	}
+
+	.box.notice_box tr td:first-child {
+		background-image:url(../img/retina/notice@2x.png);
+		background-size:32px 32px;
+	}
+
+	.box.warning_box tr td:first-child {
+		background-image:url(../img/retina/warning@2x.png);
+		background-size:32px 32px;
+	}
+
+	.box.download_box tr td:first-child {
+		background-image:url(../img/retina/download@2x.png);
+		background-size:32px 32px;
+	}
+	
+	.star-rating, 
+	.star-rating span, 
+	#review_form_wrapper #commentform .stars span, 
+	#review_form_wrapper #commentform .stars span a:hover, 
+	#review_form_wrapper #commentform .stars span a:focus, 
+	#review_form_wrapper #commentform .stars span a.active {
+		background-image:url(../img/retina/star@2x.png);
+		background-size:13px 24px;
+	}
+	
+	.bottom_inner .star-rating, 
+	.bottom_inner .star-rating span,
+	.bottom_inner #review_form_wrapper #commentform .stars span, 
+	.bottom_inner #review_form_wrapper #commentform .stars span a:hover, 
+	.bottom_inner #review_form_wrapper #commentform .stars span a:focus, 
+	.bottom_inner #review_form_wrapper #commentform .stars span a.active {
+		background-image:url(../img/retina/star_bot@2x.png);
+		background-size:13px 24px;
+	}
+
+}
